@@ -12,6 +12,7 @@ import com.produtos.apirest.entities.User;
 @RequestMapping(value = "/Users")
 public class UserResource {
 
+	
 	@GetMapping
 	public ResponseEntity<User> findAll(){
 		
